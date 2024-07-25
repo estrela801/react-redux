@@ -1,5 +1,5 @@
 .titulo{
-    background-color: grey;
+    background-color: #808080;
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -9,10 +9,13 @@
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
+    min-width: 300px;
 }
 
 .comp{
     padding: 20px;
     display: flex;
     justify-content: center;
+    color: red;
+    width: 250px;
 }
