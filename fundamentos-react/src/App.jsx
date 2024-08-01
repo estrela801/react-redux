@@ -11,6 +11,7 @@ import Card from "./componentes/layout/Card";
 import Familia from "./componentes/basicos/Familia";
 import FamiliaMembros from "./componentes/basicos/FamiliaMembros";
 import Alunos from "./componentes/medios/Alunos";
+import Produtos from './componentes/medios/Produtos'
 
 export default function App() {
   ReactDOM.render(
@@ -43,6 +44,9 @@ export default function App() {
         </Card>
         <Card titulo='Lista de alunos'>
          <Alunos></Alunos>
+        </Card>
+        <Card titulo='Exercício dos produtos'>
+          <Produtos></Produtos>
         </Card>
       </div>
     </div>,
