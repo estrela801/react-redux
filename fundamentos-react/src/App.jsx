@@ -9,6 +9,8 @@ import B from "./componentes/medios/lowercase";
 import Aleatorio from "./componentes/basicos/Aleatorio";
 import Card from "./componentes/layout/Card";
 import Familia from "./componentes/basicos/Familia";
+import FamiliaMembros from "./componentes/basicos/FamiliaMembros";
+import Alunos from "./componentes/medios/Alunos";
 
 export default function App() {
   ReactDOM.render(
@@ -30,7 +32,17 @@ export default function App() {
           <Aleatorio min={1} max={10}></Aleatorio>
         </Card>
         <Card titulo='Exercicio familia'>
-          <Familia></Familia>
+          <Familia sobrenome='Estrela'>
+
+            <FamiliaMembros nome='Rodrigo' ></FamiliaMembros>
+            <FamiliaMembros nome='Celso' ></FamiliaMembros>
+            <FamiliaMembros nome='Danilo' ></FamiliaMembros>
+            <FamiliaMembros nome='Felipe' ></FamiliaMembros>
+          </Familia>
+
+        </Card>
+        <Card titulo='Lista de alunos'>
+         <Alunos></Alunos>
         </Card>
       </div>
     </div>,
