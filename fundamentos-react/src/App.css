@@ -1,4 +1,6 @@
 #id-principal .exs{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 30px;
 }
