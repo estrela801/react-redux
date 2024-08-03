@@ -12,6 +12,7 @@ import Familia from "./componentes/basicos/Familia";
 import FamiliaMembros from "./componentes/basicos/FamiliaMembros";
 import Alunos from "./componentes/medios/Alunos";
 import Produtos from './componentes/medios/Produtos'
+import PArOuImpar from "./componentes/condicionais/PArOuImpar";
 
 export default function App() {
   ReactDOM.render(
@@ -47,6 +48,9 @@ export default function App() {
         </Card>
         <Card titulo='Exercício dos produtos'>
           <Produtos></Produtos>
+        </Card>
+        <Card titulo='Par ou Impar'>
+          <PArOuImpar numero={11}></PArOuImpar>
         </Card>
       </div>
     </div>,
